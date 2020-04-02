@@ -29,5 +29,13 @@ public class Calculadora {
 		int resul = num1 / num2;
 		return resul;
 	}
+	
+	public int elevaXaN() {
+		int resul=num1;
+		for (int i = 0; i < num2; i++) {
+			resul*=resul;
+		}
+		return resul;
+	}
 }
 
